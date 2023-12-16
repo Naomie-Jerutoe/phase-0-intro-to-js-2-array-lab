@@ -18,12 +18,12 @@ function destructivelyRemoveFirstCat(){
 }
 
 function appendCat(name){
-  const newCats = [...cats, "Broom"];
+  const newCats = [...cats, name];
   return newCats;
 }
 
 function prependCat(name){
-  const newCats = ["Arnold", ...cats];
+  const newCats = [name, ...cats];
   return newCats;
 }
 
